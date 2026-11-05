@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"tertiary-fixed":"#d8e2ff","tertiary":"#b1c6f9","tertiary-container":"#91a6d7","on-primary-fixed":"#271900","on-error-container":"#ffdad6","inverse-surface":"#e5e2e1","primary":"#e9c178","on-secondary-container":"#b4b5b5","on-tertiary":"#192f59","surface-tint":"#e9c178","on-background":"#e5e2e1","on-tertiary-fixed":"#001a42","primary-fixed-dim":"#e9c178","on-secondary-fixed-variant":"#454747","on-secondary-fixed":"#1a1c1c","secondary-fixed":"#e2e2e2","primary-container":"#c6a15b","surface":"#131313","surface-container":"#201f1f","secondary-fixed-dim":"#c6c6c7","error":"#ffb4ab","on-secondary":"#2f3131","tertiary-fixed-dim":"#b1c6f9","on-primary":"#412d00","surface-bright":"#3a3939","surface-container-high":"#2a2a2a","surface-container-low":"#1c1b1b","inverse-on-surface":"#313030","on-tertiary-fixed-variant":"#314671","primary-fixed":"#ffdea5","surface-container-lowest":"#0e0e0e","secondary-container":"#454747","on-surface":"#e5e2e1","on-primary-container":"#4f3800","surface-container-highest":"#353534","on-surface-variant":"#d1c5b4","inverse-primary":"#775a1a","secondary":"#c6c6c7","error-container":"#93000a","on-error":"#690005","surface-dim":"#131313","on-primary-fixed-variant":"#5d4202","outline-variant":"#4e4639","surface-variant":"#353534","background":"#131313","outline":"#9a8f80","on-tertiary-container":"#253b65"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"margin":"4rem","margin-mobile":"1.25rem","space-lg":"2rem","space-sm":"0.5rem","space-md":"1rem","gutter-mobile":"0.75rem","space-xl":"4rem","gutter":"1.5rem","space-xs":"0.25rem"},"fontFamily":{"headline-sm":["Bodoni Moda"],"headline-md":["Bodoni Moda"],"headline-lg":["Bodoni Moda"],"display-xl":["Bodoni Moda"],"label-md":["Plus Jakarta Sans"],"display-lg":["Bodoni Moda"],"label-sm":["Plus Jakarta Sans"],"display-lg-mobile":["Bodoni Moda"],"label-lg":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"display-xl-mobile":["Bodoni Moda"],"body-lg":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"]},"fontSize":{"headline-sm":["20px",{"lineHeight":"28px","letterSpacing":"0.02em","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"0.03em","fontWeight":"400"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"0.04em","fontWeight":"400"}],"display-xl":["72px",{"lineHeight":"80px","letterSpacing":"0.08em","fontWeight":"400"}],"label-md":["11px",{"lineHeight":"16px","letterSpacing":"0.18em","fontWeight":"500"}],"display-lg":["48px",{"lineHeight":"56px","letterSpacing":"0.06em","fontWeight":"400"}],"label-sm":["10px",{"lineHeight":"14px","letterSpacing":"0.2em","fontWeight":"600"}],"display-lg-mobile":["32px",{"lineHeight":"40px","letterSpacing":"0.05em","fontWeight":"400"}],"label-lg":["13px",{"lineHeight":"18px","letterSpacing":"0.15em","fontWeight":"500"}],"body-md":["14px",{"lineHeight":"22px","letterSpacing":"0.01em","fontWeight":"400"}],"display-xl-mobile":["40px",{"lineHeight":"48px","letterSpacing":"0.06em","fontWeight":"400"}],"body-lg":["16px",{"lineHeight":"26px","letterSpacing":"0.01em","fontWeight":"300"}],"body-sm":["12px",{"lineHeight":"18px","letterSpacing":"0.02em","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 left-0 w-full z-50 bg-surface-container-lowest/95 backdrop-blur-md border-b border-outline-variant/30"><div class="h-20 w-full px-gutter-mobile lg:px-margin flex items-center justify-between"><nav class="flex items-center gap-space-lg" data-active-classes="text-on-surface border-b border-primary"><a class="font-label-md text-label-md uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="home" href="#">Home</a><a aria-current="page" class="font-label-md uppercase tracking-widest transition-colors py-space-xs text-on-surface border-b border-primary" data-path="shop" href="#">Shop</a><a class="font-label-md text-label-md uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="collections" href="#">Collections</a><a class="font-label-md text-label-md uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="editorial" href="#">Editorial</a><a class="font-label-md text-label-md uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="contact" href="#">Contact</a></nav><div class="flex items-center justify-center"><a class="flex items-center gap-space-sm group" data-path="home" href="#"><span class="font-display-lg text-headline-lg tracking-[0.25em] uppercase text-on-surface font-headline-lg transition-colors group-hover:text-primary">NOIRÉ</span></a></div><div class="flex items-center gap-space-lg"><div class="flex items-center text-on-surface-variant font-label-sm text-label-sm tracking-widest uppercase hover:text-on-surface cursor-pointer transition-colors"><span>EUR</span><span class="mx-space-xs text-outline-variant">/</span><span class="text-outline">USD</span></div><button aria-label="Search" class="text-on-surface-variant hover:text-on-surface transition-colors focus:outline-none flex items-center justify-center" type="button"><span class="material-symbols-outlined text-[20px]">search</span></button><a aria-label="Wishlist" class="relative text-on-surface-variant hover:text-on-surface transition-colors flex items-center" data-path="wishlist" href="#"><span class="material-symbols-outlined text-[20px]">favorite</span><span class="absolute -top-1 -right-2 text-[9px] font-label-sm font-semibold tracking-tighter text-on-surface bg-surface-container-high px-1 rounded-full">0</span></a><a aria-label="Shopping Bag" class="relative text-on-surface-variant hover:text-on-surface transition-colors flex items-center" data-path="cart" href="#"><span class="material-symbols-outlined text-[20px]">shopping_bag</span><span class="absolute -top-1 -right-2 text-[9px] font-label-sm font-semibold tracking-tighter bg-primary text-on-primary px-1 rounded-full">02</span></a><a aria-label="Account" class="flex items-center pl-space-xs" data-path="account" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover border border-outline-variant/40 hover:border-primary transition-colors" src="https://lh3.googleusercontent.com/aida/AEtjO1UPtyL4tyLElxPsDFFO_SNiINtJd7bfUjnAmKByf_vM9ptByoXDKZW3Ynu7ytd_4Sj2WmviRXnuabei56WZYDj5foSkdRXHlrRRWuW9XtoFiNxpf-mLY12OGDv_7jGSFtHSCW8uHaSagqLeslJ8hDv-Waov-KAHVHIVFLyYQ5aAD_gI5ZPjuD3SS9WG-YBL9shp70oBBEfEOBSRVQYbm5BgxYcaAxmnHvpQvgjeRlAtgQ"/></a></div></div></header><main class="w-full pt-20 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Editorial Hero Section -->
+<section class="w-full px-gutter-mobile lg:px-margin pt-space-md pb-space-lg bg-surface">
+<!-- Breadcrumbs & Meta Counter -->
+<div class="flex items-center justify-between py-space-xs text-on-surface-variant font-label-sm text-label-sm uppercase tracking-[0.25em]">
+<div class="flex items-center gap-space-xs">
+<a class="hover:text-primary transition-colors text-outline" href="#">HOME</a>
+<span class="text-outline-variant">/</span>
+<span class="text-on-surface">THE COLLECTION</span>
+</div>
+<div class="flex items-center gap-space-xs text-outline">
+<span class="w-1.5 h-1.5 bg-primary inline-block"></span>
+<span id="product-counter">SHOWING 24 PIECES</span>
+</div>
+</div>
+<!-- Editorial Typography Block -->
+<div class="mt-space-lg flex flex-col lg:flex-row lg:items-end justify-between gap-space-lg">
+<div class="max-w-3xl">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-[0.3em] block mb-space-xs">EDITION SS25 • ARCHIVAL SILHOUETTES</span>
+<h1 class="font-display-xl text-display-xl tracking-tight text-on-surface uppercase leading-none">THE COLLECTION</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-space-md max-w-xl font-light">
+          Curated monochromatic garments defined by architectural cuts, stark contrast, and bespoke artisanal tailoring. Monolithic elegance for the contemporary silhouette.
+        </p>
+</div>
+<!-- Quick Metrics Strip -->
+<div class="flex items-center gap-space-xl pb-space-xs self-start lg:self-end">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-widest">ATELIER ORIGIN</span>
+<span class="font-label-md text-label-md text-on-surface tracking-wider uppercase mt-1">PARIS • MILANO</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-widest">FABRICATION</span>
+<span class="font-label-md text-label-md text-on-surface tracking-wider uppercase mt-1">100% NOBLE FIBERS</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Filter & Sorting Bar -->
+<section class="sticky top-20 z-40 w-full bg-surface-container-lowest/95 backdrop-blur-md px-gutter-mobile lg:px-margin py-space-sm shadow-md">
+<div class="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-space-md">
+<!-- Category Pills -->
+<div class="flex items-center gap-space-xs overflow-x-auto no-scrollbar py-space-xs" id="category-pills">
+<button class="category-btn active px-space-md py-space-xs font-label-sm text-label-sm uppercase tracking-[0.2em] bg-surface-container-high text-primary hover:text-primary transition-colors whitespace-nowrap" data-category="ALL" type="button">
+          ALL
+        </button>
+<button class="category-btn px-space-md py-space-xs font-label-sm text-label-sm uppercase tracking-[0.2em] bg-transparent text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap" data-category="TAILORING" type="button">
+          TAILORING
+        </button>
+<button class="category-btn px-space-md py-space-xs font-label-sm text-label-sm uppercase tracking-[0.2em] bg-transparent text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap" data-category="OUTERWEAR" type="button">
+          OUTERWEAR
+        </button>
+<button class="category-btn px-space-md py-space-xs font-label-sm text-label-sm uppercase tracking-[0.2em] bg-transparent text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap" data-category="DRESSES" type="button">
+          DRESSES
+        </button>
+<button class="category-btn px-space-md py-space-xs font-label-sm text-label-sm uppercase tracking-[0.2em] bg-transparent text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap" data-category="ACCESSORIES" type="button">
+          ACCESSORIES
+        </button>
+<button class="category-btn px-space-md py-space-xs font-label-sm text-label-sm uppercase tracking-[0.2em] bg-transparent text-on-surface-variant hover:text-on-surface transition-colors whitespace-nowrap" data-category="FOOTWEAR" type="button">
+          FOOTWEAR
+        </button>
+</div>
+<!-- Secondary Filters & Sort Dropdowns -->
+<div class="flex items-center flex-wrap lg:flex-nowrap gap-space-sm justify-between lg:justify-end">
+<!-- Filter Controls -->
+<div class="flex items-center gap-space-xs">
+<!-- Size Selector Trigger -->
+<div class="relative group">
+<button class="flex items-center gap-space-xs px-space-md py-space-xs bg-surface-container text-on-surface font-label-sm text-label-sm tracking-widest uppercase hover:bg-surface-container-high transition-colors">
+<span>SIZE</span>
+<span class="material-symbols-outlined text-[14px] text-outline group-hover:text-primary transition-colors">expand_more</span>
+</button>
+<div class="absolute right-0 top-full mt-1 w-44 bg-surface-container-high p-space-sm shadow-xl hidden group-hover:block z-50">
+<div class="space-y-space-xs">
+<label class="flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant cursor-pointer hover:text-on-surface">
+<input class="accent-primary" type="checkbox" value="XS"/> <span>XS • 34 FR</span>
+</label>
+<label class="flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant cursor-pointer hover:text-on-surface">
+<input class="accent-primary" type="checkbox" value="S"/> <span>S • 36 FR</span>
+</label>
+<label class="flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant cursor-pointer hover:text-on-surface">
+<input class="accent-primary" type="checkbox" value="M"/> <span>M • 38 FR</span>
+</label>
+<label class="flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant cursor-pointer hover:text-on-surface">
+<input class="accent-primary" type="checkbox" value="L"/> <span>L • 40 FR</span>
+</label>
+<label class="flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant cursor-pointer hover:text-on-surface">
+<input class="accent-primary" type="checkbox" value="XL"/> <span>XL • 42 FR</span>
+</label>
+</div>
+</div>
+</div>
+<!-- Color Selector Trigger -->
+<div class="relative group">
+<button class="flex items-center gap-space-xs px-space-md py-space-xs bg-surface-container text-on-surface font-label-sm text-label-sm tracking-widest uppercase hover:bg-surface-container-high transition-colors">
+<span>COLOUR</span>
+<span class="material-symbols-outlined text-[14px] text-outline group-hover:text-primary transition-colors">expand_more</span>
+</button>
+<div class="absolute right-0 top-full mt-1 w-48 bg-surface-container-high p-space-sm shadow-xl hidden group-hover:block z-50">
+<div class="space-y-space-xs">
+<div class="flex items-center gap-space-xs cursor-pointer text-on-surface-variant hover:text-on-surface py-1">
+<span class="w-3 h-3 bg-black inline-block"></span>
+<span class="font-label-sm text-label-sm tracking-wider uppercase">NOIR</span>
+</div>
+<div class="flex items-center gap-space-xs cursor-pointer text-on-surface-variant hover:text-on-surface py-1">
+<span class="w-3 h-3 bg-[#E5E2E1] inline-block"></span>
+<span class="font-label-sm text-label-sm tracking-wider uppercase">ALABASTER</span>
+</div>
+<div class="flex items-center gap-space-xs cursor-pointer text-on-surface-variant hover:text-on-surface py-1">
+<span class="w-3 h-3 bg-[#2F2119] inline-block"></span>
+<span class="font-label-sm text-label-sm tracking-wider uppercase">ESPRESSO</span>
+</div>
+<div class="flex items-center gap-space-xs cursor-pointer text-on-surface-variant hover:text-on-surface py-1">
+<span class="w-3 h-3 bg-[#A47F53] inline-block"></span>
+<span class="font-label-sm text-label-sm tracking-wider uppercase">CAMEL</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Price Range Trigger -->
+<div class="relative group">
+<button class="flex items-center gap-space-xs px-space-md py-space-xs bg-surface-container text-on-surface font-label-sm text-label-sm tracking-widest uppercase hover:bg-surface-container-high transition-colors">
+<span>PRICE</span>
+<span class="material-symbols-outlined text-[14px] text-outline group-hover:text-primary transition-colors">expand_more</span>
+</button>
+<div class="absolute right-0 top-full mt-1 w-52 bg-surface-container-high p-space-md shadow-xl hidden group-hover:block z-50">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider block mb-space-xs">RANGE ($500 - $3,500+)</span>
+<div class="space-y-space-xs">
+<label class="flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant cursor-pointer hover:text-on-surface">
+<input class="accent-primary" name="price" type="radio"/> <span>UNDER $1,000</span>
+</label>
+<label class="flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant cursor-pointer hover:text-on-surface">
+<input class="accent-primary" name="price" type="radio"/> <span>$1,000 - $2,000</span>
+</label>
+<label class="flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant cursor-pointer hover:text-on-surface">
+<input class="accent-primary" name="price" type="radio"/> <span>$2,000 - $3,500+</span>
+</label>
+</div>
+</div>
+</div>
+<!-- Material Trigger -->
+<div class="relative group hidden sm:block">
+<button class="flex items-center gap-space-xs px-space-md py-space-xs bg-surface-container text-on-surface font-label-sm text-label-sm tracking-widest uppercase hover:bg-surface-container-high transition-colors">
+<span>MATERIAL</span>
+<span class="material-symbols-outlined text-[14px] text-outline group-hover:text-primary transition-colors">expand_more</span>
+</button>
+<div class="absolute right-0 top-full mt-1 w-44 bg-surface-container-high p-space-sm shadow-xl hidden group-hover:block z-50">
+<div class="space-y-space-xs">
+<label class="flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant cursor-pointer hover:text-on-surface">
+<input class="accent-primary" type="checkbox"/> <span>CASHMERE</span>
+</label>
+<label class="flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant cursor-pointer hover:text-on-surface">
+<input class="accent-primary" type="checkbox"/> <span>MULBERRY SILK</span>
+</label>
+<label class="flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant cursor-pointer hover:text-on-surface">
+<input class="accent-primary" type="checkbox"/> <span>CALFSKIN</span>
+</label>
+<label class="flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant cursor-pointer hover:text-on-surface">
+<input class="accent-primary" type="checkbox"/> <span>VIRGIN WOOL</span>
+</label>
+</div>
+</div>
+</div>
+</div>
+<!-- Sort Mechanism -->
+<div class="flex items-center gap-space-xs pl-space-sm bg-surface-container-lowest">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-widest hidden md:inline">SORT:</span>
+<div class="relative group">
+<button class="flex items-center gap-space-xs px-space-md py-space-xs bg-surface-container-high text-primary font-label-sm text-label-sm tracking-widest uppercase">
+<span id="current-sort">FEATURED</span>
+<span class="material-symbols-outlined text-[14px]">swap_vert</span>
+</button>
+<div class="absolute right-0 top-full mt-1 w-48 bg-surface-container-high p-space-xs shadow-xl hidden group-hover:block z-50">
+<button class="w-full text-left px-space-sm py-space-xs font-label-sm text-label-sm tracking-wider uppercase text-on-surface hover:text-primary transition-colors">FEATURED</button>
+<button class="w-full text-left px-space-sm py-space-xs font-label-sm text-label-sm tracking-wider uppercase text-on-surface-variant hover:text-primary transition-colors">NEWEST FIRST</button>
+<button class="w-full text-left px-space-sm py-space-xs font-label-sm text-label-sm tracking-wider uppercase text-on-surface-variant hover:text-primary transition-colors">PRICE: LOW TO HIGH</button>
+<button class="w-full text-left px-space-sm py-space-xs font-label-sm text-label-sm tracking-wider uppercase text-on-surface-variant hover:text-primary transition-colors">PRICE: HIGH TO LOW</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Editorial Lookbook Grid: 4-Columns Desktop -->
+<section class="w-full px-gutter-mobile lg:px-margin py-space-xl bg-surface">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-gutter gap-y-space-xl">
+<!-- ITEM 1 -->
+<article class="group relative flex flex-col bg-surface-container-lowest transition-all duration-300">
+<!-- Visual Container (3:4 aspect) -->
+<div class="relative aspect-[3/4] w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]" data-alt="Editorial full-length high fashion portrait of an elegant model wearing an oversized Architectural Wool Overcoat in deep noir black against a brutalist textured concrete studio backdrop with high key side shadows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA45gueoDuyO_LYzFymqvQ9nCq_zssFwx5ZxZNSt2IH7UD4RMnxxPbD-hu1cjjfUX1tZvKFWWtKtJMb56r-BK5qrikdagmIwbfoGgpXZLZVSHMX-GYtJR6VCv8LbW4lVkXqMKlW2ydBeuHEI-yUzLFDAhRfX-LeNdd8tBYTzdgGSxM_zliVU7prJb-CB7uKrdvpFMhB2uIUteYXh77Z2_fhiUH4wA3kmy2n7weUCL03"/>
+<!-- Badges -->
+<div class="absolute top-space-sm left-space-sm">
+<span class="bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-label-sm uppercase px-space-sm py-0.5 tracking-[0.2em]">NEW ARRIVAL</span>
+</div>
+<!-- Wishlist Heart Action -->
+<button aria-label="Add to wishlist" class="absolute top-space-sm right-space-sm text-on-surface-variant hover:text-primary transition-colors p-1" onclick="toggleWishlist(this)" type="button">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<!-- Quick Add Slide-Up Bar -->
+<div class="absolute inset-x-0 bottom-0 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out bg-surface-container-highest/95 backdrop-blur-sm p-space-xs flex items-center justify-between">
+<button class="w-full py-space-xs text-center font-label-md text-label-md uppercase tracking-[0.2em] bg-on-surface text-surface hover:bg-primary hover:text-on-primary transition-colors font-medium" type="button">
+              + QUICK ADD
+            </button>
+</div>
+</div>
+<!-- Typography & Meta Details -->
+<div class="pt-space-md pb-space-sm flex flex-col justify-between flex-grow">
+<div>
+<div class="flex items-baseline justify-between gap-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wider group-hover:text-primary transition-colors">ARCHITECTURAL WOOL OVERCOAT</h2>
+<span class="font-label-md text-label-md text-primary tracking-widest font-semibold">$2,100</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Virgin wool blend • Structured dropped shoulders</p>
+</div>
+<!-- Color Swatches -->
+<div class="flex items-center gap-space-xs mt-space-md pt-space-xs">
+<span class="font-label-sm text-label-sm text-outline tracking-wider mr-1">SHADES:</span>
+<button aria-label="Noir" class="w-3 h-3 bg-black ring-1 ring-primary focus:outline-none" title="Noir"></button>
+<button aria-label="Charcoal" class="w-3 h-3 bg-[#383838] focus:outline-none" title="Charcoal"></button>
+</div>
+</div>
+</article>
+<!-- ITEM 2 -->
+<article class="group relative flex flex-col bg-surface-container-lowest transition-all duration-300">
+<!-- Visual Container (3:4 aspect) -->
+<div class="relative aspect-[3/4] w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]" data-alt="Editorial lookbook photograph showcasing a model in a Structured Silk Lapel Blazer in crisp midnight black with sharp peak lapels and structured silhouette against dramatic monochrome lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKzTptLNnqEeT7ld0I52j0Ca6YTP-7fG4qcodMzYIkqdNpEyc2FpbdFY4X_v5s4M7yS190Oa36D_Ok_w9qQBql2sMaO2Oxr41lg30gTG6VYL9UTxYhHdB-tWe5MwUd5QOSrkbuElPL7ofK9eH59aH8S7yXE15_OvLdm21gKKAFhqZu048irOfaIKz0vMXyXH-jQdnqgTpDtex-otyVnb0cEzF--T6krv8qIHjFluOd"/>
+<!-- Badges -->
+<div class="absolute top-space-sm left-space-sm">
+<span class="bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm uppercase px-space-sm py-0.5 tracking-[0.2em]">BESTSELLER</span>
+</div>
+<!-- Wishlist Heart Action -->
+<button aria-label="Add to wishlist" class="absolute top-space-sm right-space-sm text-on-surface-variant hover:text-primary transition-colors p-1" onclick="toggleWishlist(this)" type="button">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<!-- Quick Add Slide-Up Bar -->
+<div class="absolute inset-x-0 bottom-0 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out bg-surface-container-highest/95 backdrop-blur-sm p-space-xs flex items-center justify-between">
+<button class="w-full py-space-xs text-center font-label-md text-label-md uppercase tracking-[0.2em] bg-on-surface text-surface hover:bg-primary hover:text-on-primary transition-colors font-medium" type="button">
+              + QUICK ADD
+            </button>
+</div>
+</div>
+<!-- Typography & Meta Details -->
+<div class="pt-space-md pb-space-sm flex flex-col justify-between flex-grow">
+<div>
+<div class="flex items-baseline justify-between gap-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wider group-hover:text-primary transition-colors">STRUCTURED SILK LAPEL BLAZER</h2>
+<span class="font-label-md text-label-md text-primary tracking-widest font-semibold">$1,450</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Mulberry silk satin trim • Monolithic waistline</p>
+</div>
+<!-- Color Swatches -->
+<div class="flex items-center gap-space-xs mt-space-md pt-space-xs">
+<span class="font-label-sm text-label-sm text-outline tracking-wider mr-1">SHADES:</span>
+<button aria-label="Noir" class="w-3 h-3 bg-black ring-1 ring-primary focus:outline-none" title="Noir"></button>
+<button aria-label="Off-White" class="w-3 h-3 bg-[#E5E2E1] focus:outline-none" title="Off-White"></button>
+</div>
+</div>
+</article>
+<!-- ITEM 3 -->
+<article class="group relative flex flex-col bg-surface-container-lowest transition-all duration-300">
+<!-- Visual Container (3:4 aspect) -->
+<div class="relative aspect-[3/4] w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]" data-alt="Intimate fashion campaign photograph of a Double-Faced Cashmere Knit sweater worn in warm espresso brown with relaxed drop-shoulder collar and sculptural drape." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqgfnwdwO6r6JPw35S7xFmd7vLALO4vxXVNzt6iG_ZPERa4z1sO1aB4Sfb8eT4kq_L5gHGBVRHcTDY9P8Q58f5hn1JpYv0cfaT_vonmfXRaA6Yh6l5FrvSXFHV5802Lz2CKZD4g6i9TLtTcyTxz7g9DEcwFHeQQ2ASZn7IipgPoMGpx_lykdablViHISzW-oReRjRjRisYFdLb6vyBV6rJ9m0nrFA4qvg2alzRTfc-"/>
+<!-- Wishlist Heart Action -->
+<button aria-label="Add to wishlist" class="absolute top-space-sm right-space-sm text-on-surface-variant hover:text-primary transition-colors p-1" onclick="toggleWishlist(this)" type="button">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<!-- Quick Add Slide-Up Bar -->
+<div class="absolute inset-x-0 bottom-0 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out bg-surface-container-highest/95 backdrop-blur-sm p-space-xs flex items-center justify-between">
+<button class="w-full py-space-xs text-center font-label-md text-label-md uppercase tracking-[0.2em] bg-on-surface text-surface hover:bg-primary hover:text-on-primary transition-colors font-medium" type="button">
+              + QUICK ADD
+            </button>
+</div>
+</div>
+<!-- Typography & Meta Details -->
+<div class="pt-space-md pb-space-sm flex flex-col justify-between flex-grow">
+<div>
+<div class="flex items-baseline justify-between gap-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wider group-hover:text-primary transition-colors">DOUBLE-FACED CASHMERE KNIT</h2>
+<span class="font-label-md text-label-md text-primary tracking-widest font-semibold">$890</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Grade-A Inner Mongolian cashmere • Seamless</p>
+</div>
+<!-- Color Swatches -->
+<div class="flex items-center gap-space-xs mt-space-md pt-space-xs">
+<span class="font-label-sm text-label-sm text-outline tracking-wider mr-1">SHADES:</span>
+<button aria-label="Espresso" class="w-3 h-3 bg-[#2F2119] ring-1 ring-primary focus:outline-none" title="Espresso"></button>
+<button aria-label="Black" class="w-3 h-3 bg-black focus:outline-none" title="Black"></button>
+</div>
+</div>
+</article>
+<!-- ITEM 4 -->
+<article class="group relative flex flex-col bg-surface-container-lowest transition-all duration-300">
+<!-- Visual Container (3:4 aspect) -->
+<div class="relative aspect-[3/4] w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]" data-alt="Editorial studio crop of Pleated Wide-Leg Trousers in flowing camel tone wool twill moving gracefully on fashion model with razor sharp deep front pleats and fluid hem." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0HajDT_TQN784meBNSfPPM1rEhnhyO8SROnerHv6KoAoc3nUYvw9LVvLVURE0YK_MehOYOJFSDDMn9tKaPFC7DBXhq64e2aGjNq_yfhX9c4M4XLPiscVSjvtJgDnnTNvgnT6Q-S9ciCxnDV2nPu46fV7i-syb8ZjA2KXtgEdrke9pvNn0s1CqkYXkoAFf74xECGAsbxY_LEM5JRn_HK9qexcK4780aSdaVCxJxQkJ"/>
+<!-- Wishlist Heart Action -->
+<button aria-label="Add to wishlist" class="absolute top-space-sm right-space-sm text-on-surface-variant hover:text-primary transition-colors p-1" onclick="toggleWishlist(this)" type="button">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<!-- Quick Add Slide-Up Bar -->
+<div class="absolute inset-x-0 bottom-0 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out bg-surface-container-highest/95 backdrop-blur-sm p-space-xs flex items-center justify-between">
+<button class="w-full py-space-xs text-center font-label-md text-label-md uppercase tracking-[0.2em] bg-on-surface text-surface hover:bg-primary hover:text-on-primary transition-colors font-medium" type="button">
+              + QUICK ADD
+            </button>
+</div>
+</div>
+<!-- Typography & Meta Details -->
+<div class="pt-space-md pb-space-sm flex flex-col justify-between flex-grow">
+<div>
+<div class="flex items-baseline justify-between gap-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wider group-hover:text-primary transition-colors">PLEATED WIDE-LEG TROUSERS</h2>
+<span class="font-label-md text-label-md text-primary tracking-widest font-semibold">$680</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">High-rise tailored waistband • Extended fluid break</p>
+</div>
+<!-- Color Swatches -->
+<div class="flex items-center gap-space-xs mt-space-md pt-space-xs">
+<span class="font-label-sm text-label-sm text-outline tracking-wider mr-1">SHADES:</span>
+<button aria-label="Noir" class="w-3 h-3 bg-black focus:outline-none" title="Noir"></button>
+<button aria-label="Camel" class="w-3 h-3 bg-[#A47F53] ring-1 ring-primary focus:outline-none" title="Camel"></button>
+</div>
+</div>
+</article>
+<!-- ITEM 5 -->
+<article class="group relative flex flex-col bg-surface-container-lowest transition-all duration-300">
+<!-- Visual Container (3:4 aspect) -->
+<div class="relative aspect-[3/4] w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]" data-alt="Striking editorial fashion visual of a model wearing a Sculpted Leather Trench coat in glossy aniline black nappa calfskin with cinched waist belt and exaggerated storm flap." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDIbOnkL6jjoHTPbptntjx8mOnLl0PYEKWDFLwXkwSvbeftDwy1zSLC7RLQihkb-YndUWeNLedMxZXMvs5iFtKOBQrQjwQtsleHWTlqKwjkxNZUsL26h71qhv1lPJf5BKx22ArwEIYdWeb0hHwVkH5ThFPucKWvk_ZvcYSl_9nEF2RRZBJotZdHjHBWPHo9A_NsZa4M9cy9sLu1wGQFWWURC5bLcMio0N6l-ae7kmqf"/>
+<!-- Badges -->
+<div class="absolute top-space-sm left-space-sm">
+<span class="bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-label-sm uppercase px-space-sm py-0.5 tracking-[0.2em]">EXCLUSIVE</span>
+</div>
+<!-- Wishlist Heart Action -->
+<button aria-label="Add to wishlist" class="absolute top-space-sm right-space-sm text-on-surface-variant hover:text-primary transition-colors p-1" onclick="toggleWishlist(this)" type="button">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<!-- Quick Add Slide-Up Bar -->
+<div class="absolute inset-x-0 bottom-0 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out bg-surface-container-highest/95 backdrop-blur-sm p-space-xs flex items-center justify-between">
+<button class="w-full py-space-xs text-center font-label-md text-label-md uppercase tracking-[0.2em] bg-on-surface text-surface hover:bg-primary hover:text-on-primary transition-colors font-medium" type="button">
+              + QUICK ADD
+            </button>
+</div>
+</div>
+<!-- Typography & Meta Details -->
+<div class="pt-space-md pb-space-sm flex flex-col justify-between flex-grow">
+<div>
+<div class="flex items-baseline justify-between gap-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wider group-hover:text-primary transition-colors">SCULPTED LEATHER TRENCH</h2>
+<span class="font-label-md text-label-md text-primary tracking-widest font-semibold">$3,200</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Full grain Italian nappa • Hand-stitched storm flap</p>
+</div>
+<!-- Color Swatches -->
+<div class="flex items-center gap-space-xs mt-space-md pt-space-xs">
+<span class="font-label-sm text-label-sm text-outline tracking-wider mr-1">SHADES:</span>
+<button aria-label="Noir" class="w-3 h-3 bg-black ring-1 ring-primary focus:outline-none" title="Noir"></button>
+</div>
+</div>
+</article>
+<!-- ITEM 6 -->
+<article class="group relative flex flex-col bg-surface-container-lowest transition-all duration-300">
+<!-- Visual Container (3:4 aspect) -->
+<div class="relative aspect-[3/4] w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]" data-alt="Sensual minimalist fashion photograph of a model wearing a Bias-Cut Silk Slip Dress in luminous champagne silk charmouse draping effortlessly with open architectural back detail." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0aMaqyHIR_alXep7UjmrKE0iijokRq5JdinMTf5LK-POqC4CxIDaDTIJDNgoRCHAvJ0Rg_0vblGDqE-OcEn31zuBp7MLfWqma_JM4AV8r-BOP9HSfhne12tZ3SYDGE-lyHayZ8pis6m9JHWMMPyLlcUjPcLLhU2208s4SFh1i2HsTut0aotOrHmv6TV6zonD3mQ0X2d3F_uegWN-fs-LDSPaUDgHje6yreLbHjEUt"/>
+<!-- Wishlist Heart Action -->
+<button aria-label="Add to wishlist" class="absolute top-space-sm right-space-sm text-on-surface-variant hover:text-primary transition-colors p-1" onclick="toggleWishlist(this)" type="button">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<!-- Quick Add Slide-Up Bar -->
+<div class="absolute inset-x-0 bottom-0 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out bg-surface-container-highest/95 backdrop-blur-sm p-space-xs flex items-center justify-between">
+<button class="w-full py-space-xs text-center font-label-md text-label-md uppercase tracking-[0.2em] bg-on-surface text-surface hover:bg-primary hover:text-on-primary transition-colors font-medium" type="button">
+              + QUICK ADD
+            </button>
+</div>
+</div>
+<!-- Typography & Meta Details -->
+<div class="pt-space-md pb-space-sm flex flex-col justify-between flex-grow">
+<div>
+<div class="flex items-baseline justify-between gap-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wider group-hover:text-primary transition-colors">BIAS-CUT SILK SLIP DRESS</h2>
+<span class="font-label-md text-label-md text-primary tracking-widest font-semibold">$1,150</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">22 momme silk charmeuse • Low scoop backline</p>
+</div>
+<!-- Color Swatches -->
+<div class="flex items-center gap-space-xs mt-space-md pt-space-xs">
+<span class="font-label-sm text-label-sm text-outline tracking-wider mr-1">SHADES:</span>
+<button aria-label="Champagne" class="w-3 h-3 bg-[#E3D9C9] ring-1 ring-primary focus:outline-none" title="Champagne"></button>
+<button aria-label="Noir" class="w-3 h-3 bg-black focus:outline-none" title="Noir"></button>
+</div>
+</div>
+</article>
+<!-- ITEM 7 -->
+<article class="group relative flex flex-col bg-surface-container-lowest transition-all duration-300">
+<!-- Visual Container (3:4 aspect) -->
+<div class="relative aspect-[3/4] w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]" data-alt="Still life high fashion composition of Minimalist Calfskin Chelsea Boot in polished jet black calf leather on dark granite pedestal with chiselled square toe silhouette." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqV6wyTd_w_XxrTUqzG2ifD2EF_qdtgpmwHN8rzAXlE4-vsxa1dOvSivH9ZFQjCbZZSj5qiiWiNt2qVjj0F5qRgG3HDKBICLdPWng7wTW7zq5VNKPicCUiL3R0oYZwkcMEwc61a7hu4aIiKgUp7EDCIZfIumKsSXh08iBqXSl7YPIU2ag-IcfbHa3h74DuJz-Kp8cMJLwIEQWZmmK02kdzL392oaINvD91vkEENGlH"/>
+<!-- Wishlist Heart Action -->
+<button aria-label="Add to wishlist" class="absolute top-space-sm right-space-sm text-on-surface-variant hover:text-primary transition-colors p-1" onclick="toggleWishlist(this)" type="button">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<!-- Quick Add Slide-Up Bar -->
+<div class="absolute inset-x-0 bottom-0 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out bg-surface-container-highest/95 backdrop-blur-sm p-space-xs flex items-center justify-between">
+<button class="w-full py-space-xs text-center font-label-md text-label-md uppercase tracking-[0.2em] bg-on-surface text-surface hover:bg-primary hover:text-on-primary transition-colors font-medium" type="button">
+              + QUICK ADD
+            </button>
+</div>
+</div>
+<!-- Typography & Meta Details -->
+<div class="pt-space-md pb-space-sm flex flex-col justify-between flex-grow">
+<div>
+<div class="flex items-baseline justify-between gap-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wider group-hover:text-primary transition-colors">MINIMALIST CALFSKIN CHELSEA BOOT</h2>
+<span class="font-label-md text-label-md text-primary tracking-widest font-semibold">$950</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Blake welted leather sole • Angular beveled heel</p>
+</div>
+<!-- Color Swatches -->
+<div class="flex items-center gap-space-xs mt-space-md pt-space-xs">
+<span class="font-label-sm text-label-sm text-outline tracking-wider mr-1">SHADES:</span>
+<button aria-label="Black" class="w-3 h-3 bg-black ring-1 ring-primary focus:outline-none" title="Black"></button>
+</div>
+</div>
+</article>
+<!-- ITEM 8 -->
+<article class="group relative flex flex-col bg-surface-container-lowest transition-all duration-300">
+<!-- Visual Container (3:4 aspect) -->
+<div class="relative aspect-[3/4] w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]" data-alt="Luxury accessories catalog macro shot of Gold Accent Leather Crossbody bag in box calf leather with brushed antique brass clasp and geometric architectural construction." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAZsqUAZUTLFAeBANa_nLmabm4CxXeu9HhZzOML2ro1QpEi2nPXsca6RKcz3dPXRc5NiowUXjJgJQOmWyJWF0rbxoGGgNE5mUo8V1SKMBnImpCJ7O5teMeU6pCyEQh_mPpysZm_h-di_GME5fPNarb1lTsen3P4U2Ka3bh3TkjgpOKKlc0scIeaagAeTO5sBBY0gWtUknJ4ikqSgpGnUVXgnKNM51U4zNndZ0wMs4l"/>
+<!-- Badges -->
+<div class="absolute top-space-sm left-space-sm">
+<span class="bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-label-sm uppercase px-space-sm py-0.5 tracking-[0.2em]">ICONIC</span>
+</div>
+<!-- Wishlist Heart Action -->
+<button aria-label="Add to wishlist" class="absolute top-space-sm right-space-sm text-on-surface-variant hover:text-primary transition-colors p-1" onclick="toggleWishlist(this)" type="button">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<!-- Quick Add Slide-Up Bar -->
+<div class="absolute inset-x-0 bottom-0 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out bg-surface-container-highest/95 backdrop-blur-sm p-space-xs flex items-center justify-between">
+<button class="w-full py-space-xs text-center font-label-md text-label-md uppercase tracking-[0.2em] bg-on-surface text-surface hover:bg-primary hover:text-on-primary transition-colors font-medium" type="button">
+              + QUICK ADD
+            </button>
+</div>
+</div>
+<!-- Typography & Meta Details -->
+<div class="pt-space-md pb-space-sm flex flex-col justify-between flex-grow">
+<div>
+<div class="flex items-baseline justify-between gap-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wider group-hover:text-primary transition-colors">GOLD ACCENT LEATHER CROSSBODY</h2>
+<span class="font-label-md text-label-md text-primary tracking-widest font-semibold">$1,280</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Brushed 24k gold hardware • Dual compartment</p>
+</div>
+<!-- Color Swatches -->
+<div class="flex items-center gap-space-xs mt-space-md pt-space-xs">
+<span class="font-label-sm text-label-sm text-outline tracking-wider mr-1">SHADES:</span>
+<button aria-label="Noir" class="w-3 h-3 bg-black ring-1 ring-primary focus:outline-none" title="Noir"></button>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- Editorial Collection Story Banner (Asymmetric Breather) -->
+<section class="w-full px-gutter-mobile lg:px-margin py-space-xl bg-surface-container-lowest">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<div class="lg:col-span-7 aspect-[16/9] w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Cinematic wide atmospheric studio editorial shot of three fashion models in monochrome dark tailored coats standing in sculptural tableau against dramatic chiaroscuro backdrop." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTDkLki2aZIVZ0YbVt8Gp9q2IfQVOILtdTt2s7KeL4DoFPhivBBQQJ5oQ6yXbl24oNGXt12wUtc3AG7DqH-Bfy8hViIMXi3uM6YL8YrSi5FYTIdNi1pXwUWx-xkybDshgCB0cndzQZwlZr35ISSmGhicyRDhSB4LFcBuBRRd1yNt4ya3ZcHwRTW6_UUkAiJ-dQ0tYZTuM9Zz7HCb6Sesp_Ddqr4zs3XQjTGZ-vXxNQ"/>
+</div>
+<div class="lg:col-span-5 flex flex-col justify-center space-y-space-md">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-[0.3em]">MANUFACTURING ATELIER • MONOGRAPH NO. 04</span>
+<h3 class="font-headline-lg text-headline-lg uppercase text-on-surface tracking-tight">PRECISION CUTS. TIMELESS DISCIPLINE.</h3>
+<p class="font-body-md text-body-md text-on-surface-variant font-light leading-relaxed">
+          Every piece in The Collection undergoes eighty hours of hand patternmaking. From the canvassed horsehair lapels to our seamless unlined hems, garments are engineered to outlive fleeting seasonal trends.
+        </p>
+<div class="pt-space-xs">
+<a class="inline-flex items-center gap-space-xs font-label-md text-label-md uppercase tracking-[0.2em] text-on-surface hover:text-primary transition-colors py-space-xs" href="#">
+<span>READ THE CRAFTSMANSHIP MANIFESTO</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Minimalist Pagination & Load More Section -->
+<section class="w-full px-gutter-mobile lg:px-margin pt-space-xl pb-space-xl bg-surface flex flex-col items-center justify-center">
+<!-- Progress Indicator -->
+<div class="w-full max-w-xs flex flex-col items-center mb-space-md">
+<span class="font-label-sm text-label-sm uppercase tracking-[0.25em] text-outline mb-space-xs" id="progress-text">
+        SHOWING 8 OF 24 PIECES
+      </span>
+<div class="w-full h-1 bg-surface-container-high overflow-hidden">
+<div class="h-full bg-primary transition-all duration-500 w-1/3" id="load-progress-bar"></div>
+</div>
+</div>
+<!-- Editorial Ghost Button -->
+<button class="px-space-xl py-space-md bg-surface-container-high text-on-surface hover:bg-primary hover:text-on-primary transition-all duration-300 font-label-md text-label-md uppercase tracking-[0.25em] font-medium active:scale-[0.99]" id="load-more-btn" onclick="handleLoadMore(this)" type="button">
+      LOAD MORE PRODUCTS
+    </button>
+</section>
+<!-- Client-side Interactive Micro-logic -->
+<script>
+    // Wishlist Toggle
+    function toggleWishlist(btn) {
+      const icon = btn.querySelector('.material-symbols-outlined');
+      const isFilled = icon.style.fontVariationSettings?.includes("'FILL' 1");
+      if (isFilled) {
+        icon.style.fontVariationSettings = "'FILL' 0";
+        icon.classList.remove('text-primary');
+        icon.classList.add('text-on-surface-variant');
+      } else {
+        icon.style.fontVariationSettings = "'FILL' 1";
+        icon.classList.remove('text-on-surface-variant');
+        icon.classList.add('text-primary');
+      }
+    }
+
+    // Category Filter Selection
+    const categoryButtons = document.querySelectorAll('.category-btn');
+    categoryButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        categoryButtons.forEach(b => {
+          b.classList.remove('active', 'bg-surface-container-high', 'text-primary');
+          b.classList.add('bg-transparent', 'text-on-surface-variant');
+        });
+        btn.classList.add('active', 'bg-surface-container-high', 'text-primary');
+        btn.classList.remove('bg-transparent', 'text-on-surface-variant');
+      });
+    });
+
+    // Load More Progress Interaction
+    let loadedCount = 8;
+    const totalCount = 24;
+    function handleLoadMore(btn) {
+      if (loadedCount < totalCount) {
+        btn.innerHTML = `<span class="inline-block animate-pulse">UPDATING CATALOG...</span>`;
+        setTimeout(() => {
+          loadedCount = Math.min(loadedCount + 8, totalCount);
+          document.getElementById('progress-text').innerText = `SHOWING ${loadedCount} OF ${totalCount} PIECES`;
+          const percentage = (loadedCount / totalCount) * 100;
+          document.getElementById('load-progress-bar').style.width = `${percentage}%`;
+          
+          if (loadedCount >= totalCount) {
+            btn.innerText = 'END OF ARCHIVE';
+            btn.disabled = true;
+            btn.classList.add('opacity-40', 'cursor-not-allowed');
+          } else {
+            btn.innerText = 'LOAD MORE PRODUCTS';
+          }
+        }, 400);
+      }
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest border-t border-outline-variant/30"><div class="w-full px-gutter-mobile lg:px-margin pt-space-xl pb-space-lg"><div class="text-center pb-space-xl border-b border-outline-variant/20"><p class="font-label-sm text-label-sm uppercase tracking-[0.3em] text-outline mb-space-sm">Atelier Residences</p><h2 class="font-headline-md text-headline-md tracking-[0.2em] uppercase text-on-surface">PARIS • MILANO • NEW YORK</h2></div><div class="grid grid-cols-1 md:grid-cols-12 gap-space-lg py-space-xl border-b border-outline-variant/20"><div class="md:col-span-5 flex flex-col justify-between pr-0 md:pr-space-lg"><div class="space-y-space-sm"><span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-primary">Newsletter Atelier</span><p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">Receive curated seasonal monographs, private invitations, and pre-collection previews.</p></div><form class="flex items-center border-b border-outline-variant focus-within:border-primary transition-colors mt-space-md max-w-md pb-space-xs"><input class="w-full bg-transparent text-on-surface font-label-sm text-label-sm tracking-widest placeholder:text-outline-variant focus:outline-none uppercase py-space-xs" placeholder="ENTER YOUR EMAIL" type="email"/><button class="font-label-md text-label-md tracking-[0.2em] text-on-surface hover:text-primary transition-colors pl-space-md uppercase font-semibold" type="submit">JOIN</button></form></div><div class="md:col-span-4 grid grid-cols-2 gap-space-md"><div class="flex flex-col space-y-space-sm"><span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-outline mb-space-xs">Client Concierge</span><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="client-service" href="#">Client Service</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="shipping-returns" href="#">Shipping &amp; Returns</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="appointments" href="#">Atelier Appointments</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="legal" href="#">Legal &amp; Privacy</a></div><div class="flex flex-col space-y-space-sm"><span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-outline mb-space-xs">Monographs</span><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="editorial" href="#">Lookbook SS25</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="editorial" href="#">Haute Joaillerie</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="collections" href="#">Archive Sale</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#">Manifesto</a></div></div><div class="md:col-span-3 flex flex-col space-y-space-sm md:items-end"><span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-outline mb-space-xs">Syndicate</span><a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors" href="#">Instagram</a><a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors" href="#">Vogue Runway</a><a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors" href="#">Pinterest</a></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between text-on-surface-variant gap-space-sm"><p class="font-label-sm text-label-sm uppercase tracking-widest text-outline">© 2025 NOIRÉ HAUTE COUTURE S.A. ALL RIGHTS RESERVED.</p><div class="flex items-center gap-space-lg"><a class="font-label-sm text-label-sm uppercase tracking-widest text-outline hover:text-on-surface transition-colors" data-path="legal" href="#">Privacy Policy</a><a class="font-label-sm text-label-sm uppercase tracking-widest text-outline hover:text-on-surface transition-colors" data-path="legal" href="#">Terms of Service</a><a class="font-label-sm text-label-sm uppercase tracking-widest text-outline hover:text-on-surface transition-colors" data-path="legal" href="#">Cookies Directive</a></div></div></div></footer></body></html>
