@@ -1,2 +1,3 @@
 import {Listing} from '@/components/store'
-export default function Page(){return <Listing/>}
+import {FashionStoreProvider} from '@/components/FashionStoreProvider'
+export default function Page(){return <FashionStoreProvider><Listing/></FashionStoreProvider>}
