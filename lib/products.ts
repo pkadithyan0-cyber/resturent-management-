@@ -72,7 +72,7 @@ export const SEED_PRODUCTS: RestaurantProduct[] = [
     station: "Bar",
     stationIcon: "coffee",
     badge: "BESTSELLER",
-    image: "/coffee.jpg",
+    image: "/images/f001.jpg",
   },
   {
     id: "F002",
@@ -84,7 +84,7 @@ export const SEED_PRODUCTS: RestaurantProduct[] = [
     station: "Bar",
     stationIcon: "tea",
     badge: "",
-    image: "/tea.jpg",
+    image: "/images/f002.jpg",
   },
   {
     id: "F003",
@@ -96,7 +96,7 @@ export const SEED_PRODUCTS: RestaurantProduct[] = [
     station: "Bar",
     stationIcon: "coffee",
     badge: "",
-    image: "/filter-coffee.jpg",
+    image: "/images/f003.jpg",
   },
   {
     id: "F004",
@@ -108,7 +108,7 @@ export const SEED_PRODUCTS: RestaurantProduct[] = [
     station: "Bar",
     stationIcon: "snowflake",
     badge: "NEW",
-    image: "/iced-coffee.jpg",
+    image: "/images/f004.jpg",
   },
   {
     id: "F005",
@@ -120,7 +120,7 @@ export const SEED_PRODUCTS: RestaurantProduct[] = [
     station: "Bar",
     stationIcon: "glass",
     badge: "",
-    image: "/orange-juice.jpg",
+    image: "/images/f005.jpg",
   },
   {
     id: "F006",
@@ -132,7 +132,7 @@ export const SEED_PRODUCTS: RestaurantProduct[] = [
     station: "Bar",
     stationIcon: "cocktail",
     badge: "SIGNATURE",
-    image: "/espresso-martini.jpg",
+    image: "/images/f001.jpg",
   },
   {
     id: "F007",
@@ -144,7 +144,7 @@ export const SEED_PRODUCTS: RestaurantProduct[] = [
     station: "Bar",
     stationIcon: "wine",
     badge: "",
-    image: "/red-wine.jpg",
+    image: "/images/f002.jpg",
   },
   {
     id: "F008",
@@ -156,7 +156,7 @@ export const SEED_PRODUCTS: RestaurantProduct[] = [
     station: "Bar",
     stationIcon: "wine",
     badge: "",
-    image: "/white-wine.jpg",
+    image: "/images/f003.jpg",
   },
 ];
 
