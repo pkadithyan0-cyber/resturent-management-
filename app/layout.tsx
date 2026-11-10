@@ -9,6 +9,8 @@ const playfair = Playfair_Display({
   style: ["normal", "italic"],
   variable: "--font-playfair",
   display: "swap",
+  preload: false,
+  fallback: ["Georgia", "Cambria", "Times New Roman", "Times", "serif"],
 });
 
 const jakarta = Plus_Jakarta_Sans({
@@ -16,6 +18,8 @@ const jakarta = Plus_Jakarta_Sans({
   weight: ["400", "500", "600", "700"],
   variable: "--font-jakarta",
   display: "swap",
+  preload: false,
+  fallback: ["Arial", "Helvetica", "sans-serif"],
 });
 
 export const metadata: Metadata = {
