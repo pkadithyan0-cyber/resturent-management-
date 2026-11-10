@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"tertiary-fixed":"#d8e2ff","tertiary":"#b1c6f9","tertiary-container":"#91a6d7","on-primary-fixed":"#271900","on-error-container":"#ffdad6","inverse-surface":"#e5e2e1","primary":"#e9c178","on-secondary-container":"#b4b5b5","on-tertiary":"#192f59","surface-tint":"#e9c178","on-background":"#e5e2e1","on-tertiary-fixed":"#001a42","primary-fixed-dim":"#e9c178","on-secondary-fixed-variant":"#454747","on-secondary-fixed":"#1a1c1c","secondary-fixed":"#e2e2e2","primary-container":"#c6a15b","surface":"#131313","surface-container":"#201f1f","secondary-fixed-dim":"#c6c6c7","error":"#ffb4ab","on-secondary":"#2f3131","tertiary-fixed-dim":"#b1c6f9","on-primary":"#412d00","surface-bright":"#3a3939","surface-container-high":"#2a2a2a","surface-container-low":"#1c1b1b","inverse-on-surface":"#313030","on-tertiary-fixed-variant":"#314671","primary-fixed":"#ffdea5","surface-container-lowest":"#0e0e0e","secondary-container":"#454747","on-surface":"#e5e2e1","on-primary-container":"#4f3800","surface-container-highest":"#353534","on-surface-variant":"#d1c5b4","inverse-primary":"#775a1a","secondary":"#c6c6c7","error-container":"#93000a","on-error":"#690005","surface-dim":"#131313","on-primary-fixed-variant":"#5d4202","outline-variant":"#4e4639","surface-variant":"#353534","background":"#131313","outline":"#9a8f80","on-tertiary-container":"#253b65"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"margin":"4rem","margin-mobile":"1.25rem","space-lg":"2rem","space-sm":"0.5rem","space-md":"1rem","gutter-mobile":"0.75rem","space-xl":"4rem","gutter":"1.5rem","space-xs":"0.25rem"},"fontFamily":{"headline-sm":["Bodoni Moda"],"headline-md":["Bodoni Moda"],"headline-lg":["Bodoni Moda"],"display-xl":["Bodoni Moda"],"label-md":["Plus Jakarta Sans"],"display-lg":["Bodoni Moda"],"label-sm":["Plus Jakarta Sans"],"display-lg-mobile":["Bodoni Moda"],"label-lg":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"display-xl-mobile":["Bodoni Moda"],"body-lg":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"]},"fontSize":{"headline-sm":["20px",{"lineHeight":"28px","letterSpacing":"0.02em","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"0.03em","fontWeight":"400"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"0.04em","fontWeight":"400"}],"display-xl":["72px",{"lineHeight":"80px","letterSpacing":"0.08em","fontWeight":"400"}],"label-md":["11px",{"lineHeight":"16px","letterSpacing":"0.18em","fontWeight":"500"}],"display-lg":["48px",{"lineHeight":"56px","letterSpacing":"0.06em","fontWeight":"400"}],"label-sm":["10px",{"lineHeight":"14px","letterSpacing":"0.2em","fontWeight":"600"}],"display-lg-mobile":["32px",{"lineHeight":"40px","letterSpacing":"0.05em","fontWeight":"400"}],"label-lg":["13px",{"lineHeight":"18px","letterSpacing":"0.15em","fontWeight":"500"}],"body-md":["14px",{"lineHeight":"22px","letterSpacing":"0.01em","fontWeight":"400"}],"display-xl-mobile":["40px",{"lineHeight":"48px","letterSpacing":"0.06em","fontWeight":"400"}],"body-lg":["16px",{"lineHeight":"26px","letterSpacing":"0.01em","fontWeight":"300"}],"body-sm":["12px",{"lineHeight":"18px","letterSpacing":"0.02em","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 left-0 w-full z-50 bg-surface-container-lowest/95 backdrop-blur-md border-b border-outline-variant/30"><div class="h-20 w-full px-gutter-mobile lg:px-margin flex items-center justify-between"><nav class="flex items-center gap-space-lg" data-active-classes="text-on-surface border-b border-primary"><a class="font-label-md text-label-md uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="home" href="#">Home</a><a class="font-label-md text-label-md uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="shop" href="#">Shop</a><a class="font-label-md text-label-md uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="collections" href="#">Collections</a><a class="font-label-md text-label-md uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="editorial" href="#">Editorial</a><a class="font-label-md text-label-md uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="contact" href="#">Contact</a></nav><div class="flex items-center justify-center"><a class="flex items-center gap-space-sm group" data-path="home" href="#"><span class="font-display-lg text-headline-lg tracking-[0.25em] uppercase text-on-surface font-headline-lg transition-colors group-hover:text-primary">NOIRÉ</span></a></div><div class="flex items-center gap-space-lg"><div class="flex items-center text-on-surface-variant font-label-sm text-label-sm tracking-widest uppercase hover:text-on-surface cursor-pointer transition-colors"><span>EUR</span><span class="mx-space-xs text-outline-variant">/</span><span class="text-outline">USD</span></div><button aria-label="Search" class="text-on-surface-variant hover:text-on-surface transition-colors focus:outline-none flex items-center justify-center" type="button"><span class="material-symbols-outlined text-[20px]">search</span></button><a aria-label="Wishlist" class="relative text-on-surface-variant hover:text-on-surface transition-colors flex items-center" data-path="wishlist" href="#"><span class="material-symbols-outlined text-[20px]">favorite</span><span class="absolute -top-1 -right-2 text-[9px] font-label-sm font-semibold tracking-tighter text-on-surface bg-surface-container-high px-1 rounded-full">0</span></a><a aria-label="Shopping Bag" class="relative text-on-surface-variant hover:text-on-surface transition-colors flex items-center" data-path="cart" href="#"><span class="material-symbols-outlined text-[20px]">shopping_bag</span><span class="absolute -top-1 -right-2 text-[9px] font-label-sm font-semibold tracking-tighter bg-primary text-on-primary px-1 rounded-full">02</span></a><a aria-label="Account" class="flex items-center pl-space-xs" data-path="account" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover border border-outline-variant/40 hover:border-primary transition-colors" src="https://lh3.googleusercontent.com/aida/AEtjO1UPtyL4tyLElxPsDFFO_SNiINtJd7bfUjnAmKByf_vM9ptByoXDKZW3Ynu7ytd_4Sj2WmviRXnuabei56WZYDj5foSkdRXHlrRRWuW9XtoFiNxpf-mLY12OGDv_7jGSFtHSCW8uHaSagqLeslJ8hDv-Waov-KAHVHIVFLyYQ5aAD_gI5ZPjuD3SS9WG-YBL9shp70oBBEfEOBSRVQYbm5BgxYcaAxmnHvpQvgjeRlAtgQ"/></a></div></div></header><main class="w-full pt-20 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Stepper Progress Header -->
+<section class="w-full bg-surface-container-lowest px-gutter-mobile lg:px-margin py-space-md">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm text-on-surface-variant font-label-sm text-label-sm uppercase tracking-widest">
+<span class="text-primary font-semibold">RESERVATION CHECKOUT</span>
+<span>/</span>
+<span class="text-on-surface">ATELIER PRIVÉ</span>
+</div>
+<!-- Linear Stepper -->
+<nav aria-label="Checkout Progress" class="flex items-center gap-space-md text-label-sm font-label-sm uppercase tracking-widest overflow-x-auto w-full md:w-auto pb-space-xs md:pb-0">
+<div class="flex items-center gap-space-xs text-primary font-semibold">
+<span class="w-5 h-5 rounded-full bg-primary text-on-primary flex items-center justify-center text-[10px]">1</span>
+<span>Contact &amp; Shipping</span>
+</div>
+<span class="text-outline-variant font-light">—</span>
+<div class="flex items-center gap-space-xs text-outline hover:text-on-surface transition-colors cursor-pointer" onclick="document.getElementById('delivery-section').scrollIntoView({behavior: 'smooth'})">
+<span class="w-5 h-5 rounded-full bg-surface-container text-on-surface-variant flex items-center justify-center text-[10px]">2</span>
+<span>Delivery</span>
+</div>
+<span class="text-outline-variant font-light">—</span>
+<div class="flex items-center gap-space-xs text-outline hover:text-on-surface transition-colors cursor-pointer" onclick="document.getElementById('payment-section').scrollIntoView({behavior: 'smooth'})">
+<span class="w-5 h-5 rounded-full bg-surface-container text-on-surface-variant flex items-center justify-center text-[10px]">3</span>
+<span>Payment</span>
+</div>
+<span class="text-outline-variant font-light">—</span>
+<div class="flex items-center gap-space-xs text-outline">
+<span class="w-5 h-5 rounded-full bg-surface-container text-on-surface-variant flex items-center justify-center text-[10px]">4</span>
+<span>Confirmation</span>
+</div>
+</nav>
+<div class="hidden lg:flex items-center gap-space-xs text-outline font-label-sm text-label-sm tracking-widest">
+<span class="material-symbols-outlined text-[16px] text-primary">lock</span>
+<span>256-BIT TLS ENCRYPTED</span>
+</div>
+</div>
+</section>
+<!-- Main Grid Layout -->
+<div class="max-w-7xl mx-auto w-full px-gutter-mobile lg:px-margin py-space-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- LEFT COLUMN: Checkout Form (Cols 1-7) -->
+<main class="lg:col-span-7 flex flex-col gap-space-xl">
+<!-- SECTION 1: Contact Information -->
+<section class="bg-surface-container-low p-space-lg shadow-sm">
+<div class="flex items-baseline justify-between mb-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="font-headline-sm text-headline-sm text-primary">01</span>
+<h2 class="font-headline-sm text-headline-sm uppercase tracking-wider text-on-surface">Client Identification</h2>
+</div>
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-primary hover:text-primary-fixed transition-colors" href="#">Sign In</a>
+</div>
+<div class="space-y-space-md">
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-widest text-outline mb-space-xs" for="contact-email">Contact Email</label>
+<input class="w-full bg-surface-container text-on-surface font-body-md text-body-md px-space-md py-space-sm focus:outline-none focus:bg-surface-container-high transition-colors" id="contact-email" placeholder="name@domain.com" type="email" value="alexandre.dumont@haute.com"/>
+</div>
+<label class="flex items-center gap-space-sm cursor-pointer select-none">
+<input checked="" class="w-4 h-4 accent-primary bg-surface-container rounded-none cursor-pointer" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Keep me updated on private salon presentations, runway editions &amp; bespoke previews</span>
+</label>
+</div>
+</section>
+<!-- SECTION 2: Shipping Destination -->
+<section class="bg-surface-container-low p-space-lg shadow-sm">
+<div class="flex items-baseline justify-between mb-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="font-headline-sm text-headline-sm text-primary">02</span>
+<h2 class="font-headline-sm text-headline-sm uppercase tracking-wider text-on-surface">Shipping Destination</h2>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">Bespoke Courier</span>
+</div>
+<form class="space-y-space-md" onsubmit="event.preventDefault();">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-widest text-outline mb-space-xs" for="shipping-first-name">First Name</label>
+<input class="w-full bg-surface-container text-on-surface font-body-md text-body-md px-space-md py-space-sm focus:outline-none focus:bg-surface-container-high transition-colors" id="shipping-first-name" type="text" value="Alexandre"/>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-widest text-outline mb-space-xs" for="shipping-last-name">Last Name</label>
+<input class="w-full bg-surface-container text-on-surface font-body-md text-body-md px-space-md py-space-sm focus:outline-none focus:bg-surface-container-high transition-colors" id="shipping-last-name" type="text" value="Dumont"/>
+</div>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-widest text-outline mb-space-xs" for="shipping-address-1">Street Address</label>
+<input class="w-full bg-surface-container text-on-surface font-body-md text-body-md px-space-md py-space-sm focus:outline-none focus:bg-surface-container-high transition-colors" id="shipping-address-1" placeholder="Building, Street, Suite" type="text" value="740 Park Avenue"/>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-md">
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-widest text-outline mb-space-xs" for="shipping-apt">Apt / Penthouse</label>
+<input class="w-full bg-surface-container text-on-surface font-body-md text-body-md px-space-md py-space-sm focus:outline-none focus:bg-surface-container-high transition-colors" id="shipping-apt" type="text" value="Penthouse 12B"/>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-widest text-outline mb-space-xs" for="shipping-city">City</label>
+<input class="w-full bg-surface-container text-on-surface font-body-md text-body-md px-space-md py-space-sm focus:outline-none focus:bg-surface-container-high transition-colors" id="shipping-city" type="text" value="New York"/>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-widest text-outline mb-space-xs" for="shipping-postal">Postal Code</label>
+<input class="w-full bg-surface-container text-on-surface font-body-md text-body-md px-space-md py-space-sm focus:outline-none focus:bg-surface-container-high transition-colors" id="shipping-postal" type="text" value="10021"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-widest text-outline mb-space-xs" for="shipping-country">Country / Territory</label>
+<select class="w-full bg-surface-container text-on-surface font-body-md text-body-md px-space-md py-space-sm focus:outline-none focus:bg-surface-container-high transition-colors uppercase cursor-pointer" id="shipping-country">
+<option selected="">United States (USD $)</option>
+<option>France (EUR €)</option>
+<option>Italy (EUR €)</option>
+<option>United Kingdom (GBP £)</option>
+<option>Japan (JPY ¥)</option>
+<option>Switzerland (CHF)</option>
+</select>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-widest text-outline mb-space-xs" for="shipping-phone">Private Courier Mobile</label>
+<input class="w-full bg-surface-container text-on-surface font-body-md text-body-md px-space-md py-space-sm focus:outline-none focus:bg-surface-container-high transition-colors" id="shipping-phone" placeholder="+1 (000) 000-0000" type="tel" value="+1 (212) 555-0198"/>
+</div>
+</div>
+</form>
+</section>
+<!-- SECTION 3: Delivery Protocol -->
+<section class="bg-surface-container-low p-space-lg shadow-sm" id="delivery-section">
+<div class="flex items-baseline justify-between mb-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="font-headline-sm text-headline-sm text-primary">03</span>
+<h2 class="font-headline-sm text-headline-sm uppercase tracking-wider text-on-surface">Delivery Protocol</h2>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Insured Transit</span>
+</div>
+<div class="space-y-space-md" id="delivery-options">
+<!-- Option 1: Selected -->
+<label class="delivery-card relative flex items-start justify-between p-space-md bg-surface-container cursor-pointer transition-all">
+<div class="flex items-start gap-space-md">
+<input checked="" class="mt-1 accent-primary w-4 h-4 cursor-pointer" name="delivery" type="radio"/>
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface font-semibold">White Glove Express Dispatch</span>
+<span class="bg-primary/20 text-primary text-[9px] uppercase px-1.5 py-0.5 tracking-widest font-label-sm">Standard</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">Guaranteed transit in climate-shielded garment trunks. Delivered directly to residence in 2-3 business days.</p>
+</div>
+</div>
+<span class="font-label-md text-label-md uppercase tracking-widest text-primary font-semibold">Complimentary</span>
+</label>
+<!-- Option 2 -->
+<label class="delivery-card relative flex items-start justify-between p-space-md bg-surface-container-lowest cursor-pointer hover:bg-surface-container transition-all">
+<div class="flex items-start gap-space-md">
+<input class="mt-1 accent-primary w-4 h-4 cursor-pointer" name="delivery" type="radio"/>
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="font-label-lg text-label-lg uppercase tracking-wider text-on-surface font-semibold">Same-Day Atelier Courier</span>
+<span class="bg-surface-container-high text-on-surface-variant text-[9px] uppercase px-1.5 py-0.5 tracking-widest font-label-sm">New York &amp; Paris Only</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">Hand-carried by an Atelier concierge in bespoke garment portfolio. Scheduled slot with private fit verification.</p>
+</div>
+</div>
+<span class="font-label-md text-label-md uppercase tracking-widest text-on-surface font-semibold">$45.00</span>
+</label>
+</div>
+</section>
+<!-- SECTION 4: Payment Protocol -->
+<section class="bg-surface-container-low p-space-lg shadow-sm" id="payment-section">
+<div class="flex items-baseline justify-between mb-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="font-headline-sm text-headline-sm text-primary">04</span>
+<h2 class="font-headline-sm text-headline-sm uppercase tracking-wider text-on-surface">Payment Method</h2>
+</div>
+<div class="flex items-center gap-space-xs text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">verified_user</span>
+<span>Encrypted Vault</span>
+</div>
+</div>
+<!-- Payment Tabs -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-xs mb-space-md" id="payment-tabs">
+<button class="pay-tab active py-space-sm px-space-xs bg-primary text-on-primary font-label-sm text-label-sm uppercase tracking-widest text-center transition-all flex flex-col items-center justify-center gap-1" data-method="card" type="button">
+<span class="material-symbols-outlined text-[18px]">credit_card</span>
+<span>Credit Card</span>
+</button>
+<button class="pay-tab py-space-sm px-space-xs bg-surface-container text-on-surface font-label-sm text-label-sm uppercase tracking-widest text-center hover:bg-surface-container-high transition-all flex flex-col items-center justify-center gap-1" data-method="apple" type="button">
+<span class="material-symbols-outlined text-[18px]">phone_iphone</span>
+<span>Apple Pay</span>
+</button>
+<button class="pay-tab py-space-sm px-space-xs bg-surface-container text-on-surface font-label-sm text-label-sm uppercase tracking-widest text-center hover:bg-surface-container-high transition-all flex flex-col items-center justify-center gap-1" data-method="klarna" type="button">
+<span class="material-symbols-outlined text-[18px]">payments</span>
+<span>Klarna (Pay 4)</span>
+</button>
+<button class="pay-tab py-space-sm px-space-xs bg-surface-container text-on-surface font-label-sm text-label-sm uppercase tracking-widest text-center hover:bg-surface-container-high transition-all flex flex-col items-center justify-center gap-1" data-method="wire" type="button">
+<span class="material-symbols-outlined text-[18px]">account_balance</span>
+<span>Atelier Wire</span>
+</button>
+</div>
+<!-- Credit Card Input Field Container -->
+<div class="space-y-space-md" id="card-fields">
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-widest text-outline mb-space-xs" for="card-holder-name">Name On Card</label>
+<input class="w-full bg-surface-container text-on-surface font-body-md text-body-md px-space-md py-space-sm focus:outline-none focus:bg-surface-container-high transition-colors uppercase tracking-wider" id="card-holder-name" type="text" value="ALEXANDRE DUMONT"/>
+</div>
+<div>
+<div class="flex justify-between items-center mb-space-xs">
+<label class="block font-label-sm text-label-sm uppercase tracking-widest text-outline" for="card-number">Card Number</label>
+<div class="flex items-center gap-space-xs text-[10px] text-outline font-label-sm">
+<span>VISA</span>
+<span>•</span>
+<span>MASTERCARD</span>
+<span>•</span>
+<span>AMEX</span>
+</div>
+</div>
+<div class="relative">
+<input class="w-full bg-surface-container text-on-surface font-body-md text-body-md px-space-md py-space-sm pr-10 focus:outline-none focus:bg-surface-container-high transition-colors tracking-widest" id="card-number" type="text" value="•••• •••• •••• 8842"/>
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-outline-variant text-[20px]">lock</span>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-space-md">
+<div>
+<label class="block font-label-sm text-label-sm uppercase tracking-widest text-outline mb-space-xs" for="card-expiry">Expires</label>
+<input class="w-full bg-surface-container text-on-surface font-body-md text-body-md px-space-md py-space-sm focus:outline-none focus:bg-surface-container-high transition-colors text-center" id="card-expiry" placeholder="MM / YY" type="text" value="08 / 28"/>
+</div>
+<div>
+<div class="flex justify-between items-center mb-space-xs">
+<label class="block font-label-sm text-label-sm uppercase tracking-widest text-outline" for="card-cvv">Security Code</label>
+<span class="material-symbols-outlined text-[14px] text-outline cursor-help" title="3 or 4 digits located on back of card">help</span>
+</div>
+<input class="w-full bg-surface-container text-on-surface font-body-md text-body-md px-space-md py-space-sm focus:outline-none focus:bg-surface-container-high transition-colors text-center tracking-widest" id="card-cvv" maxlength="4" placeholder="CVC" type="password" value="•••"/>
+</div>
+</div>
+</div>
+<!-- Alt Payment Notice (Hidden initially) -->
+<div class="hidden p-space-md bg-surface-container text-center space-y-space-xs" id="alt-payment-msg">
+<span class="material-symbols-outlined text-[28px] text-primary">touch_app</span>
+<p class="font-body-md text-body-md text-on-surface">You will be redirected safely to complete authentication.</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Your reservation items remain protected for 15 minutes.</p>
+</div>
+<!-- Billing Address Checkbox -->
+<label class="flex items-center gap-space-sm mt-space-md cursor-pointer select-none">
+<input checked="" class="w-4 h-4 accent-primary bg-surface-container rounded-none cursor-pointer" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Billing address matches shipping address</span>
+</label>
+</section>
+<!-- CTA & Legal Execution -->
+<div class="space-y-space-md">
+<button class="w-full bg-on-surface hover:bg-primary text-surface font-label-md text-label-md py-space-md uppercase tracking-[0.2em] font-semibold transition-all duration-300 flex items-center justify-center gap-space-sm shadow-xl active:scale-[0.99] group" id="order-submit-btn" type="button">
+<span class="tracking-[0.25em]">COMPLETE RESERVATION &amp; ORDER</span>
+<span>—</span>
+<span id="cta-total-display">$2,300.40</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+<p class="font-body-sm text-body-sm text-outline text-center leading-relaxed">
+            By clicking Complete Reservation, you agree to the NOIRÉ Haute Couture S.A. <a class="underline hover:text-on-surface transition-colors" href="#">Client Sales Policy</a> and acknowledge our <a class="underline hover:text-on-surface transition-colors" href="#">Privacy Charter</a>. Transactions are strictly authorized in USD.
+          </p>
+</div>
+</main>
+<!-- RIGHT COLUMN: Order Review Sidebar (Cols 8-12 Sticky) -->
+<aside class="lg:col-span-5 relative">
+<div class="sticky top-28 space-y-space-md">
+<!-- Order Summary Card -->
+<div class="bg-surface-container-low p-space-lg shadow-sm space-y-space-lg">
+<div class="flex items-baseline justify-between">
+<h2 class="font-headline-sm text-headline-sm uppercase tracking-wider text-on-surface">Order Bag</h2>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">2 Creations</span>
+</div>
+<!-- Product Items List -->
+<div class="space-y-space-md">
+<!-- Item 1 -->
+<div class="flex gap-space-md items-start group">
+<div class="w-20 h-28 bg-surface-container overflow-hidden flex-shrink-0 relative">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="High-fashion studio photograph of an immaculate black structured silk lapel blazer tailored impeccably on a minimalist hanger with dramatic dark moody studio lighting and fine fabric weave." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbL6XTk43ZJ4-DxkDea3rq_oABgt9L9EreQoUnImRUnwO0aYvYb5Kh4Gd09WOWdHYul-RjNr87fQPDyW77nFbbUpR6hNX4Ld8lpIkrRRx1I_h6Cibyox7Y8HghlS9tZLWPtSD9vxf_Yxsivv_iseeHSO7uK45HOqrgiM-zUEBu7jvn8xp4ID_TNMpoApGkNi5dNxNfKQD-wC693244qTVnajAhTSzl2ziD2Yp-SpQi"/>
+<span class="absolute top-1 left-1 bg-surface-container-lowest/80 text-on-surface text-[10px] font-label-sm px-1 font-semibold">01</span>
+</div>
+<div class="flex-1 flex flex-col justify-between h-28">
+<div>
+<div class="flex justify-between items-start">
+<h3 class="font-body-md text-body-md text-on-surface font-normal">Structured Silk Lapel Blazer</h3>
+<span class="font-label-md text-label-md text-on-surface font-semibold ml-2">$1,450.00</span>
+</div>
+<p class="font-body-sm text-body-sm text-outline mt-0.5">Deep Obsidian • Size M (FR 48)</p>
+</div>
+<div class="flex items-center justify-between text-body-sm text-outline">
+<span>Qty: 1</span>
+<button class="text-on-surface-variant hover:text-primary font-label-sm text-label-sm uppercase tracking-wider transition-colors" type="button">Modify</button>
+</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="flex gap-space-md items-start group">
+<div class="w-20 h-28 bg-surface-container overflow-hidden flex-shrink-0 relative">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Close up editorial lookbook photo of high-waisted pleated wide leg black trousers crafted from bespoke worsted wool captured with elegant draping against an architectural dark slate backdrop." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAhKNsOdlRa7HLvOkNJe9HxhPQkjYBgYNZXTHGBMY-ra7yRcLC9nUObrAvNoE1jRpw0GIR2QYQY-65syTssH4xPEISmf6PMmjCk0Ix-ciXxPLZpGUsxBWgeBWc8LzURluRI9QS96MjVDJJu16dt1oCK-T3m2qOzeucjSXLuTX-6G6fZ24z1XDsrfZGsA1T9JPfHFwl-D-MVupKIUHUDBGpOK_EShLp2IsnCMWmb5Mem"/>
+<span class="absolute top-1 left-1 bg-surface-container-lowest/80 text-on-surface text-[10px] font-label-sm px-1 font-semibold">02</span>
+</div>
+<div class="flex-1 flex flex-col justify-between h-28">
+<div>
+<div class="flex justify-between items-start">
+<h3 class="font-body-md text-body-md text-on-surface font-normal">Pleated Wide-Leg Trousers</h3>
+<span class="font-label-md text-label-md text-on-surface font-semibold ml-2">$680.00</span>
+</div>
+<p class="font-body-sm text-body-sm text-outline mt-0.5">Midnight Wool • Size S (FR 38)</p>
+</div>
+<div class="flex items-center justify-between text-body-sm text-outline">
+<span>Qty: 1</span>
+<button class="text-on-surface-variant hover:text-primary font-label-sm text-label-sm uppercase tracking-wider transition-colors" type="button">Modify</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Promotion / Atelier Code -->
+<div class="pt-space-sm">
+<label class="block font-label-sm text-label-sm uppercase tracking-widest text-outline mb-space-xs" for="promo-input">Private Client Voucher</label>
+<div class="flex gap-space-xs">
+<input class="flex-1 bg-surface-container text-on-surface font-label-sm text-label-sm uppercase tracking-widest px-space-md py-space-sm focus:outline-none focus:bg-surface-container-high transition-colors" id="promo-input" placeholder="ENTER CODE" type="text"/>
+<button class="bg-surface-container-high hover:bg-primary hover:text-on-primary text-on-surface font-label-sm text-label-sm uppercase tracking-widest px-space-md transition-colors font-medium" type="button">Apply</button>
+</div>
+</div>
+<!-- Line Items Calculation -->
+<div class="space-y-space-xs text-body-sm pt-space-xs">
+<div class="flex justify-between text-on-surface-variant">
+<span>Creations Subtotal</span>
+<span class="font-body-md text-on-surface">$2,130.00</span>
+</div>
+<div class="flex justify-between text-on-surface-variant">
+<span>White Glove Courier</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-semibold" id="shipping-cost-display">Complimentary</span>
+</div>
+<div class="flex justify-between text-on-surface-variant">
+<span>Estimated Duties &amp; Taxes</span>
+<span class="font-body-md text-on-surface">$170.40</span>
+</div>
+<!-- Grand Total Block -->
+<div class="bg-surface-container p-space-md mt-space-sm flex justify-between items-baseline">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-[0.2em] text-on-surface block font-semibold">Total Allocation</span>
+<span class="font-label-sm text-label-sm text-outline">Includes import tariff &amp; bespoke handling</span>
+</div>
+<div class="text-right">
+<span class="font-headline-md text-headline-md text-primary font-serif" id="final-total-display">$2,300.40</span>
+<span class="block text-[10px] text-outline tracking-wider font-label-sm">USD</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Trust & Authenticity Module -->
+<div class="bg-surface-container-lowest p-space-md space-y-space-md">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px]">verified</span>
+<div>
+<h4 class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-semibold">Guaranteed Atelier Authenticity</h4>
+<p class="font-body-sm text-body-sm text-outline mt-0.5">Every garment is numbered, hand-finished in our Paris atelier, and registered to your personal archive registry.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px]">assignment_return</span>
+<div>
+<h4 class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-semibold">30-Day White Glove Returns</h4>
+<p class="font-body-sm text-body-sm text-outline mt-0.5">Complimentary scheduled courier pick-up from your home or office address. Garment bags included.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px]">lock</span>
+<div>
+<h4 class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-semibold">Concierge Assistance Available</h4>
+<p class="font-body-sm text-body-sm text-outline mt-0.5">Direct hotline to personal stylist and fulfillment director: <span class="text-on-surface font-mono">+33 1 42 68 55 00</span>.</p>
+</div>
+</div>
+</div>
+<!-- Minimalist Live Status Indicator -->
+<div class="p-space-sm bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">Atelier Inventory Reserved</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-mono" id="reservation-timer">14:59</span>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</div>
+<script>
+  (function () {
+    // Delivery Method switching & subtotal adjustment
+    const deliveryCards = document.querySelectorAll('.delivery-card input[type="radio"]');
+    const shippingDisplay = document.getElementById('shipping-cost-display');
+    const ctaTotal = document.getElementById('cta-total-display');
+    const finalTotal = document.getElementById('final-total-display');
+
+    deliveryCards.forEach((radio, index) => {
+      radio.addEventListener('change', () => {
+        deliveryCards.forEach(r => {
+          r.closest('.delivery-card').classList.remove('bg-surface-container');
+          r.closest('.delivery-card').classList.add('bg-surface-container-lowest');
+        });
+        radio.closest('.delivery-card').classList.remove('bg-surface-container-lowest');
+        radio.closest('.delivery-card').classList.add('bg-surface-container');
+
+        if (index === 0) {
+          shippingDisplay.textContent = 'Complimentary';
+          shippingDisplay.className = 'font-label-sm text-label-sm uppercase tracking-widest text-primary font-semibold';
+          ctaTotal.textContent = '$2,300.40';
+          finalTotal.textContent = '$2,300.40';
+        } else {
+          shippingDisplay.textContent = '$45.00';
+          shippingDisplay.className = 'font-body-md text-on-surface';
+          ctaTotal.textContent = '$2,345.40';
+          finalTotal.textContent = '$2,345.40';
+        }
+      });
+    });
+
+    // Payment Tab switcher
+    const payTabs = document.querySelectorAll('.pay-tab');
+    const cardFields = document.getElementById('card-fields');
+    const altMessage = document.getElementById('alt-payment-msg');
+
+    payTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        payTabs.forEach(t => {
+          t.classList.remove('bg-primary', 'text-on-primary');
+          t.classList.add('bg-surface-container', 'text-on-surface');
+        });
+        tab.classList.remove('bg-surface-container', 'text-on-surface');
+        tab.classList.add('bg-primary', 'text-on-primary');
+
+        const method = tab.getAttribute('data-method');
+        if (method === 'card') {
+          cardFields.classList.remove('hidden');
+          altMessage.classList.add('hidden');
+        } else {
+          cardFields.classList.add('hidden');
+          altMessage.classList.remove('hidden');
+        }
+      });
+    });
+
+    // Order Placement State micro-interaction
+    const submitBtn = document.getElementById('order-submit-btn');
+    submitBtn.addEventListener('click', () => {
+      submitBtn.disabled = true;
+      submitBtn.classList.add('opacity-80', 'cursor-wait');
+      submitBtn.innerHTML = `
+        <span class="material-symbols-outlined text-[20px] animate-spin">progress_activity</span>
+        <span class="tracking-[0.25em]">AUTHENTICATING ATELIER RESERVATION...</span>
+      `;
+
+      setTimeout(() => {
+        submitBtn.innerHTML = `
+          <span class="material-symbols-outlined text-[20px] text-on-primary">check_circle</span>
+          <span class="tracking-[0.25em]">RESERVATION CONFIRMED • NOIRÉ #8942</span>
+        `;
+        submitBtn.classList.remove('bg-on-surface', 'text-surface');
+        submitBtn.classList.add('bg-primary', 'text-on-primary');
+      }, 1400);
+    });
+
+    // 15-Minute Reservation Countdown Timer
+    let totalSeconds = 14 * 60 + 59;
+    const timerDisplay = document.getElementById('reservation-timer');
+    if (timerDisplay) {
+      setInterval(() => {
+        if (totalSeconds > 0) {
+          totalSeconds--;
+          const m = String(Math.floor(totalSeconds / 60)).padStart(2, '0');
+          const s = String(totalSeconds % 60).padStart(2, '0');
+          timerDisplay.textContent = `${m}:${s}`;
+        }
+      }, 1000);
+    }
+  })();
+</script></main><footer class="w-full bg-surface-container-lowest border-t border-outline-variant/30"><div class="w-full px-gutter-mobile lg:px-margin pt-space-xl pb-space-lg"><div class="text-center pb-space-xl border-b border-outline-variant/20"><p class="font-label-sm text-label-sm uppercase tracking-[0.3em] text-outline mb-space-sm">Atelier Residences</p><h2 class="font-headline-md text-headline-md tracking-[0.2em] uppercase text-on-surface">PARIS • MILANO • NEW YORK</h2></div><div class="grid grid-cols-1 md:grid-cols-12 gap-space-lg py-space-xl border-b border-outline-variant/20"><div class="md:col-span-5 flex flex-col justify-between pr-0 md:pr-space-lg"><div class="space-y-space-sm"><span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-primary">Newsletter Atelier</span><p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">Receive curated seasonal monographs, private invitations, and pre-collection previews.</p></div><form class="flex items-center border-b border-outline-variant focus-within:border-primary transition-colors mt-space-md max-w-md pb-space-xs"><input class="w-full bg-transparent text-on-surface font-label-sm text-label-sm tracking-widest placeholder:text-outline-variant focus:outline-none uppercase py-space-xs" placeholder="ENTER YOUR EMAIL" type="email"/><button class="font-label-md text-label-md tracking-[0.2em] text-on-surface hover:text-primary transition-colors pl-space-md uppercase font-semibold" type="submit">JOIN</button></form></div><div class="md:col-span-4 grid grid-cols-2 gap-space-md"><div class="flex flex-col space-y-space-sm"><span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-outline mb-space-xs">Client Concierge</span><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="client-service" href="#">Client Service</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="shipping-returns" href="#">Shipping &amp; Returns</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="appointments" href="#">Atelier Appointments</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="legal" href="#">Legal &amp; Privacy</a></div><div class="flex flex-col space-y-space-sm"><span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-outline mb-space-xs">Monographs</span><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="editorial" href="#">Lookbook SS25</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="editorial" href="#">Haute Joaillerie</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="collections" href="#">Archive Sale</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#">Manifesto</a></div></div><div class="md:col-span-3 flex flex-col space-y-space-sm md:items-end"><span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-outline mb-space-xs">Syndicate</span><a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors" href="#">Instagram</a><a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors" href="#">Vogue Runway</a><a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors" href="#">Pinterest</a></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between text-on-surface-variant gap-space-sm"><p class="font-label-sm text-label-sm uppercase tracking-widest text-outline">© 2025 NOIRÉ HAUTE COUTURE S.A. ALL RIGHTS RESERVED.</p><div class="flex items-center gap-space-lg"><a class="font-label-sm text-label-sm uppercase tracking-widest text-outline hover:text-on-surface transition-colors" data-path="legal" href="#">Privacy Policy</a><a class="font-label-sm text-label-sm uppercase tracking-widest text-outline hover:text-on-surface transition-colors" data-path="legal" href="#">Terms of Service</a><a class="font-label-sm text-label-sm uppercase tracking-widest text-outline hover:text-on-surface transition-colors" data-path="legal" href="#">Cookies Directive</a></div></div></div></footer></body></html>
